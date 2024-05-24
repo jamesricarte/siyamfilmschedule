@@ -118,3 +118,14 @@ function dropdownbutton11Clicked() {
 }
 
 document.querySelector('.js-button-11').addEventListener('click', dropdownbutton11Clicked);
+
+function dropdownbutton12Clicked() {
+    const Script = document.querySelector('.js-script-12');
+    if (Script.style.display === 'none' || Script.style.display === '') {
+        Script.style.display = 'flex';
+    } else {
+        Script.style.display = 'none';
+    }
+}
+
+document.querySelector('.js-button-12').addEventListener('click', dropdownbutton12Clicked);
